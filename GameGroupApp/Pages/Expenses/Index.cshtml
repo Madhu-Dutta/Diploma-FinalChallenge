@@ -1,0 +1,76 @@
+﻿@page
+@model GameGroupApp.Pages.Expenses.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Expenses</h1>
+
+@*<p>
+        <a asp-page="Create">Create New</a>
+  </p>*@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].UserId)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Amount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @if (Model.ViewTypeSelected == IndexModel.ViewType.Totals)
+        {
+            @foreach (var item in Model.Totals)
+            {
+                <tr>
+                    @*<td>
+                        @item.UserId
+                    </td>*@
+                    <td>
+                        @item.UserName
+                    </td>
+                    <td>
+                        @item.Total
+                    </td>
+                    <td>
+                        @*<a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            @foreach (var item in Model.Record)
+            {
+                <tr>
+                    <td>
+                        @item.User.Id
+                    </td>
+                    <td>
+                        @item.User.UserName
+                    </td>
+                    <td>
+                        @item.Amount
+                    </td>
+                    <td>
+                        @*<a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,94 @@
+﻿@page
+@model GameGroupApp.Pages.PaidUnpaid.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+@if (Model.ViewBySetting == IndexModel.ViewBy.Paid)
+{
+    <div>
+        <a asp-page="./Index" asp-route-viewBy="0">Paid Games</a> |
+        <a asp-page="./Index" asp-route-viewBy="1">UnPaid Games</a>
+    </div>
+}
+else if(Model.ViewBySetting == IndexModel.ViewBy.UnPaid)
+{
+    <div>
+        <a asp-page="./Index" asp-route-viewBy="1">UnPaid Games</a> |
+        <a asp-page="./Index" asp-route-viewBy="0">Paid Games</a>
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Venue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Team1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Team2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Paid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Record[0].User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Record)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Venue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Team1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Team2)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Time)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Paid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserName)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

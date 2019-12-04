@@ -1,0 +1,68 @@
+﻿@page
+@model GameGroupApp.Pages.PaidUnpaid.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Record</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Venue)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Venue)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Team1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Team1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Team2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Team2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Time)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Time)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Paid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Paid)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.Amount)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.Amount)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Record.User)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Record.User.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Record.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

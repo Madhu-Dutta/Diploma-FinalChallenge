@@ -1,0 +1,202 @@
+{
+  "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\GameGroupApp.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "3.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": null,
+  "RootNamespace": "GameGroupApp",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Expenses\\Create.cshtml",
+      "TargetPath": "Pages\\Expenses\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\AllRecords\\Delete.cshtml",
+      "TargetPath": "Pages\\AllRecords\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\PaidUnpaid\\Index.cshtml",
+      "TargetPath": "Pages\\PaidUnpaid\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\PaidUnpaid\\Edit.cshtml",
+      "TargetPath": "Pages\\PaidUnpaid\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\AllRecords\\Index.cshtml",
+      "TargetPath": "Pages\\AllRecords\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\AllRecords\\Edit.cshtml",
+      "TargetPath": "Pages\\AllRecords\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\PaidUnpaid\\Delete.cshtml",
+      "TargetPath": "Pages\\PaidUnpaid\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Expenses\\Details.cshtml",
+      "TargetPath": "Pages\\Expenses\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Expenses\\Index.cshtml",
+      "TargetPath": "Pages\\Expenses\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\PaidUnpaid\\Details.cshtml",
+      "TargetPath": "Pages\\PaidUnpaid\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Expenses\\Delete.cshtml",
+      "TargetPath": "Pages\\Expenses\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Approvals\\Approve.cshtml",
+      "TargetPath": "Pages\\Approvals\\Approve.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\PaidUnpaid\\Create.cshtml",
+      "TargetPath": "Pages\\PaidUnpaid\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Expenses\\Edit.cshtml",
+      "TargetPath": "Pages\\Expenses\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\Approvals\\Pending.cshtml",
+      "TargetPath": "Pages\\Approvals\\Pending.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\AllRecords\\Details.cshtml",
+      "TargetPath": "Pages\\AllRecords\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Pages\\AllRecords\\Create.cshtml",
+      "TargetPath": "Pages\\AllRecords\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Madhu\\source\\repos\\DiplomaChallange\\GameGroupApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

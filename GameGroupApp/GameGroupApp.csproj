@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>aspnet-GameGroupApp-7EF02C50-0F8B-4548-8BB3-3E96B75CB48B</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>

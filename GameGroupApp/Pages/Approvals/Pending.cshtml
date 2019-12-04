@@ -1,0 +1,52 @@
+﻿@page
+@model GameGroupApp.Pages.Approvals.PendingModel
+@using GameGroupApp.Data.Claims
+@{
+    ViewData["Title"] = "Pending";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Pending</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PendingMembers[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PendingMembers[0].UserId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (var item in Model.PendingMembers)
+    {
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <form method="post">
+                        <input type="hidden" asp-for="@item.UserId" />
+                        <button asp-page-handler="ChangeStatus"
+                                 asp-route-id="@item.UserId"
+                                asp-route-change="@MemberStatus.Approved"
+                                class="btn btn-success">
+                            Approve
+                        </button>
+                        <button asp-page-handler="ChangeStatus"
+                                asp-route-id="@item.UserId"
+                                asp-route-change="@MemberStatus.Rejected"
+                                class="btn btn-danger">
+                            Reject
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    }
+</table>
+
+
